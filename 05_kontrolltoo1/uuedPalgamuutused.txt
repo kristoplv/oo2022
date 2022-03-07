@@ -1,0 +1,6 @@
+1800.0: võrreldes geomeetrilisega :1800.0
+1854.0: võrreldes geomeetrilisega :1848.0
+1947.0: võrreldes geomeetrilisega :1898.0
+2025.0: võrreldes geomeetrilisega :1949.0
+2045.0: võrreldes geomeetrilisega :2001.0
+2055.0: võrreldes geomeetrilisega :2055.0
