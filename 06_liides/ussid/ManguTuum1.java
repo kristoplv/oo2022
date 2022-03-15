@@ -1,4 +1,3 @@
-import java.math.*;
 
 public class ManguTuum1 implements ManguTuum{
     int appleX, appleY, snekHeadX=0, snekHeadY=0;
