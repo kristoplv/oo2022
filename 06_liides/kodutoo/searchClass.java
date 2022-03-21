@@ -10,7 +10,7 @@ public class searchClass implements searchIF{
         String newURL = "";
         int counter = 0;
         //https://www.youtube.com/ + javascript
-        //https://www.youtube.com/results?search_query=tere+jou
+        //https://www.youtube.com/results?search_query=
         System.out.println(platform);
         if(platform.equals("youtube")){
             newURL = "https://www.youtube.com/results?search_query=learn+"+search;
