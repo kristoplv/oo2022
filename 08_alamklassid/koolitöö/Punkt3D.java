@@ -5,7 +5,7 @@ public class Punkt3D extends Punkt2D{
         y = newY;
         z = newZ;
     }
-    public double calculate3D(){
+    public double distanceFromZero(){
         double output = Math.sqrt(Math.pow(x, 2)+Math.pow(y, 2)+Math.pow(z, 2));
         return output;
     }

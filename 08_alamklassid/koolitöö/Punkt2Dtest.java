@@ -12,8 +12,8 @@ public class Punkt2Dtest {
                 arrayOutput.add(test.distanceFromZero());
             } else if(valuesForTest[i].length>2){
                 Punkt2D test = new Punkt3D(valuesForTest[i][0], valuesForTest[i][1], valuesForTest[i][2]);
-                System.out.println("Kaugus nullist on "+((Punkt3D)test).calculate3D());
-                arrayOutput.add(((Punkt3D)test).calculate3D());
+                System.out.println("Kaugus nullist on "+((Punkt3D)test).distanceFromZero());
+                arrayOutput.add(((Punkt3D)test).distanceFromZero());
             }
         }
         System.out.println("Suurim kaugus nullist massivis on: "+Collections.max(arrayOutput));
