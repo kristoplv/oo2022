@@ -1,12 +1,12 @@
 public class Torus {
-    double length, width;
+    double radius, width;
     public nSideCuboid(double newL, double newW, double newH){
-        length = newL;
+        radius = newL;
         width = newW;
         height = newH;
     }
     @Override
     public double botCircumference(){
-        return 2*(length+width);
+        return Math.PI * radius;
     }
 }
