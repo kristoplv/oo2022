@@ -15,4 +15,3 @@ class controlTest {
         return ((x+y+z)*100)/threshold;
     }
 }
-/*i am the master of programming.*/
