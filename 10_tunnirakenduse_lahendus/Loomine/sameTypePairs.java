@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class sameTypePairs<T extends Comparable<T> > implements Comparable<T> {
+public class sameTypePairs<T extends Comparable<T> > implements Comparable<sameTypePairs<T>> {
     T first, second;
 
     @Override
