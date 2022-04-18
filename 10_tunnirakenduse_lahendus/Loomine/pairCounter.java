@@ -18,5 +18,16 @@ public class pairCounter<T extends Comparable<T> > {
         last = element;
 
     }
+    List<Map.Entry<sameTypePairs<T>, Integer>> ordered(){
+
+        List<Map.Entry<sameTypePairs<T>, Integer>> order = new ArrayList<>(counter.entrySet());
+        Collections.sort(order, new Comparator<Map.Entry<sameTypePairs<T>, Integer> >(){
+            public int compare(Map.Entry<sameTypePairs<T>, Integer> toCompare1,
+                                Map.Entry<sameTypePairs<T>, Integer> toCompare2){
+                return toCompare2.getValue()-toCompare1.getValue();
+            }
+        });
+        return order;
+    }
 
 }
