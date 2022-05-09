@@ -1,0 +1,27 @@
+----------------------------------------------------------------
+Toit : Kartulisalat | Kogus: 2500.0
+Rasvad: 210.0 | Valgud : 101.0 | Susivesikud : 49.0
+Vaja laheb: kartul  1000.0 grammi
+Nimi : kartul |  Valgud : 1.9 |  Rasvad : 0.1 |  Susivesikud : 16.9
+Vaja laheb: hapukoor  1000.0 grammi
+Nimi : hapukoor |  Valgud : 3.0 |  Rasvad : 10.0 |  Susivesikud : 4.1
+Vaja laheb: Vorst  500.0 grammi
+Nimi : vorst |  Valgud : 12.0 |  Rasvad : 12.0 |  Susivesikud : 4.1
+----------------------------------------------------------------
+Toit : Kartulisalat | Kogus: 2500.0
+Rasvad: 210.0 | Valgud : 101.0 | Susivesikud : 49.0
+Vaja laheb: kartul  1000.0 grammi
+Nimi : kartul |  Valgud : 1.9 |  Rasvad : 0.1 |  Susivesikud : 16.9
+Vaja laheb: hapukoor  1000.0 grammi
+Nimi : hapukoor |  Valgud : 3.0 |  Rasvad : 10.0 |  Susivesikud : 4.1
+Vaja laheb: Vorst  500.0 grammi
+Nimi : vorst |  Valgud : 12.0 |  Rasvad : 12.0 |  Susivesikud : 4.1
+----------------------------------------------------------------
+Toit : Kartulisalat | Kogus: 2500.0
+Rasvad: 210.0 | Valgud : 101.0 | Susivesikud : 49.0
+Vaja laheb: kartul  1000.0 grammi
+Nimi : kartul |  Valgud : 1.9 |  Rasvad : 0.1 |  Susivesikud : 16.9
+Vaja laheb: hapukoor  1000.0 grammi
+Nimi : hapukoor |  Valgud : 3.0 |  Rasvad : 10.0 |  Susivesikud : 4.1
+Vaja laheb: Vorst  500.0 grammi
+Nimi : vorst |  Valgud : 12.0 |  Rasvad : 12.0 |  Susivesikud : 4.1
