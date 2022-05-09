@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class toit {
+    double amountMultiplier;
     String filename = "toidud.txt";
     String toiduNimetus;
     ArrayList<toidukomponent> komponendid;
@@ -14,15 +15,19 @@ public class toit {
         this.toiduNimetus = uusToit;
         this.komponendid = uuedToiduained;
         this.kogus = uusKogus;
+        this.amountMultiplier = (uusKogus / uuedToiduained.size())/100;
+        System.out.println(uuedToiduained.size());
+        System.out.print(uusKogus);
+        System.out.println(this.amountMultiplier);
         this.findNutrition();
     }
 
     public void findNutrition(){
         for(int i =0; i<komponendid.size(); i++){
-            this.protein += komponendid.get(i).fats;
-            System.out.println(this.protein);
-            this.fats += komponendid.get(i).carbs;
-            this.carbs += komponendid.get(i).proteins;
+            this.protein = this.protein +  komponendid.get(i).toit.rasvad * this.amountMultiplier;
+            System.out.println(komponendid.get(i).toit.rasvad);
+            this.fats = this.protein + komponendid.get(i).toit.susivesikud* this.amountMultiplier;
+            this.carbs = this.protein + komponendid.get(i).toit.valgud * this.amountMultiplier;
         }
     }
     public void printInfo(){

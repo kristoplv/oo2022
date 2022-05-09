@@ -10,10 +10,11 @@ class toidukomponent {
     }
 
     public void leiaRasv(){
-        double fatsAmount = this.toit.rasvad * kogus/100;
-        this.fats = fatsAmount;
-        this.proteins = this.toit.valgud * kogus/100;
-        this.carbs = this.toit.susivesikud * kogus/100;
-        System.out.println("Toidus on "+fatsAmount +"g rasva?!");
+        this.fats = this.toit.rasvad;
+        this.proteins = this.toit.valgud;
+        this.carbs = this.toit.susivesikud;
+        System.out.println(this.proteins);
+        System.out.println(this.carbs);
+        System.out.println("Toidus on "+this.fats +"g rasva?!");
     }
 }

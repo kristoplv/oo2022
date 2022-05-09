@@ -14,9 +14,9 @@ public class superMain {
             kartul.printFood();
             hapukoor.printFood();
         }
-        toidukomponent nKartul = new toidukomponent("kartul", 1000, kartul);
-        toidukomponent nHapukoor = new toidukomponent("hapukoor", 1000, hapukoor);
-        toidukomponent nVorst = new toidukomponent("Vorst", 500, vorst);
+        toidukomponent nKartul = new toidukomponent("kartul", 100, kartul);
+        toidukomponent nHapukoor = new toidukomponent("hapukoor", 100, hapukoor);
+        toidukomponent nVorst = new toidukomponent("Vorst", 100, vorst);
         nKartul.leiaRasv();
         nHapukoor.leiaRasv();
 
@@ -28,7 +28,7 @@ public class superMain {
         vajalikud.add(nVorst);
         
 
-        toit kartulisalat = new toit("Kartulisalat", vajalikud, 2500);
+        toit kartulisalat = new toit("Kartulisalat", vajalikud, 3000);
         kartulisalat.printInfo();
         try{
 
