@@ -34,7 +34,7 @@ public class toit {
         System.out.println("----------------------------------------------------------------");
         System.out.println("Toit : "+this.toiduNimetus + " | Kogus: "+this.kogus);
         System.out.println("Rasvad: "+ this.fats + " | Valgud : "+ this.protein + " | Susivesikud : "+this.carbs);
-        for(int i =0; i<this.komponendid.size(); i++){System.out.println("Vaja laheb: "+this.komponendid.get(i).toiduNimi + "  "+this.komponendid.get(i).kogus+" grammi");this.komponendid.get(i).toit.printFood();}
+        for(int i =0; i<this.komponendid.size(); i++){System.out.println("Vaja laheb: "+this.komponendid.get(i).toiduNimi + "  "+(this.komponendid.get(i).kogus * this.amountMultiplier)+" grammi");this.komponendid.get(i).toit.printFood();}
         this.sendToText();
     }
 
@@ -49,7 +49,7 @@ public class toit {
             writer.write("\n");
             writer.write("Rasvad: "+ this.fats + " | Valgud : "+ this.protein + " | Susivesikud : "+this.carbs);
             writer.write("\n");
-            for(int i =0; i<this.komponendid.size(); i++){writer.write("Vaja laheb: "+this.komponendid.get(i).toiduNimi + "  "+this.komponendid.get(i).kogus+" grammi");
+            for(int i =0; i<this.komponendid.size(); i++){writer.write("Vaja laheb: "+this.komponendid.get(i).toiduNimi + "  "+this.komponendid.get(i).kogus*this.amountMultiplier+" grammi");
                 writer.write("\n");
                 writer.write("Nimi : "+this.komponendid.get(i).toit.nimetus + " |  Valgud : "+this.komponendid.get(i).toit.valgud + " |  Rasvad : "+this.komponendid.get(i).toit.rasvad + " |  Susivesikud : "+this.komponendid.get(i).toit.susivesikud);
                 writer.write("\n");
